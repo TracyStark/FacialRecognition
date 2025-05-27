@@ -1,0 +1,49 @@
+.layout {
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  background: #001529;
+}
+
+.logo {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 30px;
+  white-space: nowrap;
+}
+
+.menu {
+  flex: 1;
+  min-width: 0;
+}
+
+.logout-button {
+  color: white;
+  margin-left: 20px;
+}
+
+.logout-button:hover {
+  color: #1890ff;
+}
+
+.content {
+  padding: 24px 50px;
+}
+
+.site-layout-content {
+  background: #fff;
+  padding: 24px;
+  min-height: 280px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  text-align: center;
+  background: #f0f2f5;
+}
